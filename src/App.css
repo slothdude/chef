@@ -1,0 +1,221 @@
+.AccountLine{
+  display: block;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 20em;
+}
+
+
+.App-header {
+  border-spacing: 5px;
+  /* border: 2px solid black; */
+  /* border-collapse: collapse; */
+  width: 100%;
+  text-align: center;
+  margin:auto;
+  background-color: #F9BA8F;
+  /*text-align: center;
+  height: 3em;
+  padding: 1em;
+  color: black;
+  display: block; */
+  /* padding-left: 10em;
+  padding-right: 10em; */
+}
+
+.App-header-td{
+  padding: 15px;
+  border: 0px;
+  /* border-collapse: collapse; */
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.Chef-logo{
+  border: 1px solid black;
+  height: 3em;
+}
+.Counter{
+  text-align: center;
+  margin: 1em;
+  /* float:left; */
+}
+.Cursive{
+
+  font-family: "Lucida Calligraphy", cursive;
+}
+.Footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #66C39E;
+  color: white;
+  text-align: center;
+  margin-top: 2em;
+}
+
+h4{
+display: inline-block;
+}
+.Home{
+  /* background-color: #FAE58F; */
+  padding-top: 3em;
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  /* font-family: cursive; */
+}
+.LoginForm{
+  text-align: right;
+  padding-right: 5em;
+}
+table {
+    border-spacing: 5px;
+    border: 2px solid black;
+    border-collapse: collapse;
+
+}
+
+th, td {
+    padding: 15px;
+    border: 2px solid black;
+
+    border-collapse: collapse;
+}
+.LoginInput{
+  display: inline;
+  border-radius: 2px;
+  border-color: black;
+  border-width: 2px;
+  margin: 0.5em;
+  height: 2em;
+
+}
+
+button{
+  background-color: black;
+  color: white;
+  height: 2.2em;
+  border-style: none;
+  border-radius: 2px;
+}
+.logo {
+  /* position: relative; */
+  /* left: 3em; */
+  height: 3em;
+  border: 1px solid black;
+}
+.map{
+  max-width: 40%;
+  width: 35%;
+  height: auto;
+  margin: 2em;
+
+  float: left;
+  margin-left: 8em;
+  /* padding: 2em; */
+}
+.Menu{
+
+}
+.menu-table{
+  margin:auto;
+}
+.Middle{
+  float: right;
+  margin-right: 2em;
+  width: 40%
+}
+.NewAccountForm {
+  padding-bottom: 3em;
+}
+.NewAccountButton{
+  background-color: #F9BA8F;
+  color: white;
+  height: 2.2em;
+  padding-left: 9.2em;
+  padding-right: 9.2em;
+  border-style: none;
+  border-radius: 5px;
+  font-size: 1em;
+}
+/* @keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} */
+.Right{
+  text-align: right;
+}
+
+
+
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #F9BA8F;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #F9BA8F;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
