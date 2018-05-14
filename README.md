@@ -14,7 +14,7 @@ and their menus by clicking the top left.
 Diagram
 =========
 
-(./src/Chef.png)
+![Chef.png](./src/Chef.png)
 
 The website triggers some API calls on API gateway, which trigger AWS lambda functions, which
 use the AWS elasticsearch service to index data. On elastic search, A list of chefs is kept at
