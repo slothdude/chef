@@ -42,14 +42,15 @@ PROBLEMS
 ##React
 
 Had to do
-<TableRow onButtonPress = {this.onButtonPress} chef = {chefs[i]} keyProp={i} key={i} />
-and then
-<button onClick = {()=>{this.props.onButtonPress(this.props.keyProp)}}>
-in the child component. There are so many ways to do this that somehow I didn't try this and
+`<TableRow onButtonPress = {this.onButtonPress} chef = {chefs[i]} keyProp={i} key={i} />`
+inside a loop and then
+`<button onClick = {()=>{this.props.onButtonPress(this.props.keyProp)}}>`
+in the child component to create a list of components where the index of the loop
+was preserved. There are so many ways to do this that somehow I didn't try this and
 got stuck on it for a couple hours, trying to figure out how to pass in the growing 'i' from
-the for loop where I was generating there rows from the data. The number being passed to the
+the for loop where I was generating the rows from the data. The number being passed to the
 onClick function was always number of rows + 1, my friend Ishaan this might be because
-of pointers behing the scenes, and 'i' is number of rows + 1 when the loop ends.
+of pointers behind the scenes, because 'i' is the number of rows + 1 when the loop ends.
 
 ##Lambda and API gateway
 

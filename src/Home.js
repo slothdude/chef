@@ -12,7 +12,6 @@ class Home extends Component {
   constructor(props){
     super(props);
     this.state = { activeItem: 'menu',
-    // menuItems: [{name: 'my first menu item',price: '5'}],
     menuItems: [], chefs: [], curChef: 0,
     name: "", price: "", location:"", products:[]};
 
@@ -283,7 +282,7 @@ class Home extends Component {
           </tbody>
         </table>
         <div className = "Home">
-        
+
 
           <h3>
             Items on your menu:
