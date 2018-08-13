@@ -36,7 +36,7 @@ Video Demo
 =========
 https://www.useloom.com/share/333cc4cc7df3491892ba08ee51bf5b7a
 
-Problems
+Challenges
 ========
 
 ## React
