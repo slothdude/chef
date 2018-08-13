@@ -1,3 +1,8 @@
+*IMPORTANT: I had to shut down this app because it was costing me over $150 a
+month to run on elasticsearch. Right now I'm too broke to even run API gateway
+to dynamo DB, so this project just doesn't work right now, sorry if you wanted
+to demo it yourself. The code is sound though.*
+
 Trying it yourself
 ==========
 git clone (project url)
