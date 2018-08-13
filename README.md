@@ -32,14 +32,14 @@ POST /chefs: adds a user that just signed up into es index.
 GET /menus?uid={uid}: returns the menu for chef with uid {uid}
 POST /menus?uid={uid}: updates the menu for chef with uid {uid}
 
-VIDEO DEMO
+Video Demo
 =========
 https://www.useloom.com/share/333cc4cc7df3491892ba08ee51bf5b7a
 
-PROBLEMS
+Problems
 ========
 
-##React
+## React
 
 Had to do
 `<TableRow onButtonPress = {this.onButtonPress} chef = {chefs[i]} keyProp={i} key={i} />`
@@ -52,7 +52,7 @@ the for loop where I was generating the rows from the data. The number being pas
 onClick function was always number of rows + 1, my friend Ishaan this might be because
 of pointers behind the scenes, because 'i' is the number of rows + 1 when the loop ends.
 
-##Lambda and API gateway
+## Lambda and API gateway
 
 This error was very difficult for me to track down:
 "XMLHttpRequest cannot load (api request). Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http://localhost:3000' is therefore not allowed access"
